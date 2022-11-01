@@ -1,0 +1,191 @@
+.header {
+  height: 1000px;
+  width: 100%;
+  border-bottom: 8px solid #222222;
+  overflow: hidden;
+}
+.header .background {
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  filter: brightness(50%);
+}
+.header-logo {
+  height: 100px;
+  width: 98%;
+  margin: 0 auto;
+  position: absolute;
+  margin: 10px 10px 10px 30px;
+}
+.header-logo img {
+  height: 120px;
+  width: 220px;
+  float: left;
+  filter: contrast(300%);
+}
+.header-signup {
+  height: 50px;
+  width: 140px;
+  float: right;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: 45px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px 10px 10px 30px;
+  background-color: red;
+}
+span {
+  color: white;
+}
+.Lg {
+  height: 60px;
+  width: 350px;
+  float: right;
+  display: flex;
+  margin: 20px 10px 10px 30px;
+}
+.Lg-vn {
+  height: 50px;
+  width: 140px;
+  margin: 5px 10px 10px 30px;
+  border: 3px solid white;
+  line-height: 40px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+select {
+  height: 50px;
+  width: 140px;
+  margin: 5px 10px 10px 30px;
+  border: 3px solid white;
+  line-height: 40px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: black;
+}
+.text-center {
+  height: 400px;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  color: white;
+
+  top: 290px;
+}
+.text-center p h2 {
+  font-size: 70px;
+}
+.text-center p h4 {
+  font-size: 30px;
+}
+.text-center p h6 {
+  font-size: 20px;
+}
+.note-text {
+  width: 100%;
+  height: 70px;
+}
+.btn-run {
+  height: 60px;
+  width: 160px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .header {
+    height: 500px;
+    width: 100%;
+    border-bottom: 8px solid #222222;
+  }
+  .header .background {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    filter: brightness(50%);
+    background-image: linear-gradient(to bottom, black);
+  }
+  .header-logo img {
+    height: 90px;
+    width: 110px;
+    float: left;
+    filter: contrast(200%);
+  }
+  .header-logo {
+    height: 80px;
+    width: 93%;
+    position: absolute;
+    margin: 2px 10px 10px 30px;
+  }
+  .Lg {
+    height: 40px;
+    width: 210px;
+    display: flex;
+    font-size: 12px;
+    margin: 20px 0px 10px 0px;
+  }
+  select {
+    height: 30px;
+    width: 90px;
+    margin: 5px 0px 0px 0px;
+    border: 3px solid white;
+    line-height: 40px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: black;
+  }
+  .header-signup {
+    height: 30px;
+    width: 90px;
+    float: right;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    color: white;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 5px 0px 10px 20px;
+    background-color: red;
+  }
+  .text-center {
+    height: 400px;
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    color: white;
+
+    top: 130px;
+  }
+  .text-center p h2 {
+    font-size: 27px;
+  }
+  .text-center p h4 {
+    font-size: 17px;
+  }
+  .text-center p h6 {
+    font-size: 13px;
+  }
+  .note-text {
+    width: 100%;
+    height: 50px;
+  }
+  .btn-run {
+    height: 40px;
+    width: 160px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+}

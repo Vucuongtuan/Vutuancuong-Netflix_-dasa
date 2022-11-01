@@ -1,0 +1,146 @@
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+li {
+  border: 1px solid rgb(48, 48, 48);
+  height: 70px;
+  display: block;
+  margin-top: 10px;
+  background-color: rgb(48, 48, 48);
+  color: white;
+  line-height: 65px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.drop {
+  height: 70px;
+  width: 100%;
+  background-color: rgb(48, 48, 48);
+}
+.drop span {
+  float: left;
+  font-size: 30px;
+}
+.drop-item {
+  height: 400px;
+  width: 100%;
+  word-wrap: inherit;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.drop-item-db {
+  height: 400px;
+  white-space: nowrap;
+  width: 100%;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+.bottomdk-top {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+b {
+  color: white;
+  font-size: 50px;
+  float: right;
+  align-items: center;
+  font-weight: 300;
+  margin-right: 10px;
+}
+span {
+  margin-left: 20px;
+}
+hr {
+  height: 8px;
+  background-color: white;
+  display: block;
+}
+.bottomdk {
+  margin-top: 20px;
+  margin: 0 auto;
+  height: 600px;
+  width: 50%;
+}
+.btt {
+  width: 100%;
+}
+
+.Bottom {
+  height: 500px;
+  width: 60%;
+  margin: auto;
+}
+.Bottom-con {
+  height: 200px;
+  width: 80%;
+  font-size: 18px;
+  margin: auto;
+  margin-top: 90px;
+  display: flex;
+  color: white;
+}
+
+.bt {
+  margin-bottom: 50px;
+  color: white;
+}
+p {
+  font-size: 16px;
+}
+.Left-a {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .bottomdk {
+    width: 100%;
+    font-size: 15px;
+  }
+  li {
+    width: 90%;
+    padding: 0 20px;
+    font-size: 10px;
+  }
+  .btt {
+    width: 100%;
+  }
+  span {
+    font-size: 13px;
+    margin-left: -10px;
+    margin-top: -10px;
+  }
+  b {
+    font-size: 14px;
+  }
+  .Bottom {
+    height: 500px;
+    width: 100%;
+  }
+  .Bottom-con {
+    height: 200px;
+    width: 100%;
+    margin-top: 70px;
+
+    color: white;
+  }
+  .Bottom-con {
+    color: white;
+  }
+  .bt {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  p {
+    font-size: 10px;
+    display: block;
+  }
+  .m {
+    display: none;
+  }
+  .Left-a {
+    margin-right: 10px;
+  }
+}
